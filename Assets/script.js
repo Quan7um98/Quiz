@@ -4,7 +4,26 @@ let numCorrect = 0;
 let startingTime = 2;
 let timer = startingTime * 60;
 let questions = [
-   
+    {
+        text: "What does the FEHU rune represent?",
+        choices: ['Strength, Energy, Courage, Vitality, Health, Motivation', 'Communication, Wisdom, Knowledge, Signals, Messages, Writing, Speaking, Singing, Listening, Expression, Intuition', 'Boundaries, Limitations, Defense, Protection, Challenge, Balance', 'Abundance, Prosperity, Wealth, New Beginnings'],
+        correct: 'Abundance, Prosperity, Wealth, New Beginnings'
+    },
+    {
+        text: "What does the URUZ rune represent?",
+        choices: ['Communication, Wisdom, Knowledge, Signals, Messages, Writing, Speaking, Singing, Listening, Expression, Intuition', 'Abundance, Prosperity, Wealth, New Beginnings', 'Boundaries, Limitations, Defense, Protection, Challenge, Balance', 'Strength, Energy, Courage, Vitality, Health, Motivation'],
+        correct: 'Strength, Energy, Courage, Vitality, Health, Motivation'
+    },
+    {
+        text: "What does the THURISAZ rune represent?",
+        choices: ['Communication, Wisdom, Knowledge, Signals, Messages, Writing, Speaking, Singing, Listening, Expression, Intuition', 'Abundance, Prosperity, Wealth, New Beginnings', 'Boundaries, Limitations, Defense, Protection, Challenge, Balance', 'Strength, Energy, Courage, Vitality, Health, Motivation'],
+        correct: 'Boundaries, Limitations, Defense, Protection, Challenge, Balance'
+    },
+    {
+        text: "What does the ANSUZ rune represent?",
+        choices: ['Communication, Wisdom, Knowledge, Signals, Messages, Writing, Speaking, Singing, Listening, Expression, Intuition', 'Boundaries, Limitations, Defense, Protection, Challenge, Balance', 'Strength, Energy, Courage, Vitality, Health, Motivation', 'Abundance, Prosperity, Wealth, New Beginnings'],
+        correct: 'Communication, Wisdom, Knowledge, Signals, Messages, Writing, Speaking, Singing, Listening, Expression, Intuition'
+    }
 ];
 
 function display() {
