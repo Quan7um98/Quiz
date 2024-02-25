@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Quiz</title>
+    <link rel="stylesheet" href="./Assets/style.css" />
+  </head>
+  <body>
+    <div class="wrapper">
+
+      <div id="start-card" class="card">
+        <h1>Quiz</h1>
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet accusantium, odio tempora suscipit dicta eveniet iusto vero, similique adipisci saepe facilis veritatis error repellendus hic labore. Necessitatibus temporibus odit totam?</p>
+        <button id="start" class="alt-btn">Start Quiz</button>
+      </div>
+      <div id="question-card" class="card hide">
+        <div class="card-header">
+          <h2 id="question">Question</h2>
+
+        </div>
+        <div class="card-body">
+          <button id="btn1" class="btn">btn 1</button>
+        </div>
+        <div class="card-body">
+          <button id="btn2" class="btn">btn 2</button>
+        </div>
+        <div class="card-body">
+          <button id="btn3" class="btn">btn 3</button>
+        </div>
+        <div class="card-body">
+          <button id="btn4" class="btn">btn 4</button>
+        </div>
+        <div class="card-footer">
+          <p id="countdown"></p>
+        </div>
+      </div>
+      <div id="end-card" class="card hide">
+        <h1>END OF QUIZ</h1>
+        <h3 id="score"></h3>
+        <button id="end" class="alt-btn">Retake Quiz</button>
+      </div>
+    </div>
+    <script src="./Assets/script.js"></script>
+  </body>
+</html>
